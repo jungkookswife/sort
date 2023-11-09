@@ -19,3 +19,8 @@ for permutation in itertools.permutations(range(N)):
         total_cost += cost
         
         taxi_arrangement.append(taxi + 1)
+
+
+    if total_cost < min_cost:
+        min_cost = total_cost
+        min_taxi = taxi_arrangement
