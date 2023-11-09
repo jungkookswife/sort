@@ -45,3 +45,7 @@ def convert_number_to_words(amount):
     return result
 
 result = convert_number_to_words(min_cost)
+
+print(*min_taxi)
+print(min_cost)
+print(result)
